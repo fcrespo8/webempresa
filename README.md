@@ -1,6 +1,12 @@
 # Web Empresa
 Business Web of a coffee shop using Django framework and Python language with several dynamic pages and an administrator panel to manage the content of the website.
-Works with Python 3.10.2 y Django 4.0.2.
+Works with Python 3.10.2 y Django 4.0.2. Pipenv is used to manage the virtual environment. Model View Template (MVT) architecture is used. The database used is SQLite.
+Apps used:
+- Core: Contains the main files of the project.
+- Services: Contains the services offered by the company.
+- Blog: Contains the blog of the company.
+- Social: Contains the social networks of the company.
+- Contact: Contains the contact form of the company.
 
 ## Connect With Me!
 
