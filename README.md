@@ -8,6 +8,20 @@ Apps used:
 - Social: Contains the social networks of the company.
 - Contact: Contains the contact form of the company.
 
+## Screenshots
+
+![Home](readme_resources/readme_1.png)
+![Contacto](readme_resources/readme_2.png)
+![Historia](readme_resources/readme_3.png)
+## Installation
+
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install the dependencies.
+
+```bash
+pipenv install
+```
+
+
 ## Connect With Me!
 
 <a href="https://github.com/fcrespo8" target="_blank">
