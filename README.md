@@ -7,6 +7,7 @@ Apps used:
 - Blog: Contains the blog of the company.
 - Social: Contains the social networks of the company.
 - Contact: Contains the contact form of the company.
+- Pages: Contains the static pages of the company.
 
 ## Screenshots
 
