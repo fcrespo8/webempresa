@@ -17,6 +17,9 @@
               <span class="section-heading-lower">Contacto</span>
             </h2>
             <!-- Formulario de contacto -->
+            {% if 'ok' in request.GET %}
+              <p><b>Gracias por contactar con nosotros, te responderemos lo antes posible.</b></p>
+            {% endif %}
             <form action="" method="POST">
               {% csrf_token %}
               <table>
@@ -24,7 +27,6 @@
               </table>
               <input type="submit" value="Enviar" />
             </form>
-            {{ request.POST }}
             <!-- <form>
                 <div class="form-group">
                     <label>Nombre *</label>
