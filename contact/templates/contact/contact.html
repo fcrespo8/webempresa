@@ -18,11 +18,13 @@
             </h2>
             <!-- Formulario de contacto -->
             <form action="" method="POST">
+              {% csrf_token %}
               <table>
                 {{ form.as_table }}
               </table>
               <input type="submit" value="Enviar" />
             </form>
+            {{ request.POST }}
             <!-- <form>
                 <div class="form-group">
                     <label>Nombre *</label>
